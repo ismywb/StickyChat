@@ -1,0 +1,14 @@
+.emote {background-image:url('sprites/s3.png')}
+.heart {width:15px;height:15px;background-position:0px 0px;}
+.mad {width:12px;height:12px;background-position: -15px 0px;}
+.chessy {width:12px;height:12px;background-position: -27px 0px;}
+.worried {width:12px;height:12px;background-position: -39px 0px;}
+.oh {width:12px;height:12px;background-position: 0px -15px;}
+.tongue {width:12px;height:12px;background-position: -12px -15px;}
+.fail {width:12px;height:12px;background-position: -24px -15px;}
+.wink {width:12px;height:12px;background-position: -36px -15px;}
+.cry {width:12px;height:12px;background-position: -2px -27px;}
+.cool {width:12px;height:12px;background-position: -16px -27px;}
+.joy {width:12px;height:12px;background-position: -28px -27px;}
+.sad {width:12px;height:12px;background-position: -40px -27px;}
+
