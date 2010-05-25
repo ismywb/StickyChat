@@ -1,5 +1,0 @@
-RewriteEngine On
-RewriteEngine on
-RewriteRule ^(.*)\.dat$ private/data.php?var=$1
-RewriteRule ^jquery.js$ http://code.jquery.com/jquery-1.4.2.min.js [P]
-RewriteRule ^\:(.*)$ index.php?room=$1
