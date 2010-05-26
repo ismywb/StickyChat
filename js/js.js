@@ -6,15 +6,16 @@ $("#msg").focus();
 function getChat() {
 var room = $('#room').attr("value");
 var url = 'http://thttest.tk/~schat/private/chat.php?room='+room+'&user='+$('#name').attr('value')+'&pass='+$('#pass').attr('value');
-alert(url);
+alert('http://api.flickr.com/services/feeds/photos_public.gne?tags=cat&tagmode=any&format=json&jsoncallback=?');
 $.ajax({
     dataType: "jsonp",
     url:url,
     success:function(data) {
     $('#chat').html("");
 $.each(data.items, function(i,item){
-            $("<p>"+item.data.d+"</p>").appendTo("#chat");
-            
+            $("<p>"+item.media.d+"</p>").appendTo("#chat");
+            if (i == 3)
+return;
           });
 }
         });
