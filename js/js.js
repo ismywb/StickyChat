@@ -15,7 +15,7 @@ $.ajax({
 $.each(data.items, function(i,item){
             $("<p>"+item.media.d+"</p>").appendTo("#chat");
             if (i == 3)
-return;
+return false;
           });
 }
         });
