@@ -7,7 +7,10 @@ function getChat() {
 var room = $('#room').attr("value");
 var url = 'http://thttest.tk/~schat/private/chat.php?room='+room+'&user='+$('#name').attr('value')+'&pass='+$('#pass').attr('value');
 alert(url);
-$.getJSON(url,function(data) {
+$.ajax({
+    dataType: "jsonp",
+    url:url,
+    success:function(data) {
     $('#chat').html("");
 $.each(data.items, function(i,item){
             $("<p>"+item.data.d+"</p>").appendTo("#chat");
