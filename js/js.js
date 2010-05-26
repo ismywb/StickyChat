@@ -6,10 +6,10 @@ $("#msg").focus();
 function getChat() {
 var room = $('#room').attr("value");
 var url = 'http://thttest.tk/~schat/private/chat.php?room='+room+'&user='+$('#name').attr('value')+'&pass='+$('#pass').attr('value');
-alert('http://api.flickr.com/services/feeds/photos_public.gne?tags=cat&tagmode=any&format=json&jsoncallback=?');
+//alert('http://api.flickr.com/services/feeds/photos_public.gne?tags=cat&tagmode=any&format=json&jsoncallback=?');
 $.ajax({
     dataType: "jsonp",
-    url:'http://api.flickr.com/services/feeds/photos_public.gne?tags=cat&tagmode=any&format=json&jsoncallback=?',
+    url:url,//'http://api.flickr.com/services/feeds/photos_public.gne?tags=cat&tagmode=any&format=json&jsoncallback=?',
     success:function(data) {
     $('#chat').html("");
 $.each(data.items, function(i,item){
