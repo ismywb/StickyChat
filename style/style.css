@@ -43,7 +43,7 @@ code { font-size:12px; }
 #main   ul { padding:0px; margin:10px 0 10px 20px; }
 #main   li { list-style: square inside; }
 
-#footer    {  margin:20px; clear:both; text-align:center; color:#e5dfb9; font-size:10px; position: absolute; top: 510px; right:710px; }
+#footer    {  margin:20px; clear:both; text-align:center; color:#e5dfb9; font-size:10px; position: absolute; top: 510px; right:200px; }
 #main a, #footer a { color:#e5dfb9; border-bottom:1px solid #7C8269; text-decoration:none; }
 #main a:hover, #footer a:hover { color:#cec9a5; }
 
