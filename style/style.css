@@ -14,7 +14,7 @@ code { font-size:12px; }
   display:block;
   z-index:-12;
   background-color:#e5dfb9;
-  background-image:url(images/sticky.png);
+  background-image:url(/images/sticky.png);
   background-repeat:no-repeat;
   background-position:-10px 0; 
 }
