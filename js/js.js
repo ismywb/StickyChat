@@ -8,6 +8,7 @@ var room = $('#room').attr("value");
 $.ajax({
 
   url: 'http://thttest.tk/~schat/private/chat.php',data: "room="+room+"&user="+$('#name').attr('value')+"&pass="+$('#pass').attr('value'),
+dataType:"jsonp",
   success: function(data) {
     $('#chat').html(data);
     setTimeout("getChat()",1000);
