@@ -5,14 +5,16 @@ $(document).ready(function(){
 $("#msg").focus();
 function getChat() {
 var room = $('#room').attr("value");
-$.getJSON('http://thttest.tk/~schat/private/chat.php?room='+room+'&user='+$('#name').attr('value')+'&pass='+$('#pass').attr('value'),function(data) {
+var url = 'http://thttest.tk/~schat/private/chat.php?room='+room+'&user='+$('#name').attr('value')+'&pass='+$('#pass').attr('value');
+alert(url);
+$.getJSON(url,function(data) {
     $('#chat').html("");
 $.each(data.items, function(i,item){
             $("<p>"+item.data.d+"</p>").appendTo("#chat");
             
           });
         });
-    setTimeout("getChat()",1000);
+   // setTimeout("getChat()",1000);
     $('#viewall').attr({href:'http://thttest.tk/~schat/private/chat.php?all=true&room='+room});
   $('#help').attr({href:'http://thttest.tk/~schat/private/help.php?pass='+$('#pass').attr('value')+'&user='+$('#name').attr('value')});
 }
