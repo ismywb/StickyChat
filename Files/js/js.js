@@ -1,3 +1,8 @@
+/***********************************************************************
+ *                           StickyChat SQL Query's.                   *
+ *                    Made by Jerald Johnson. Copyright 2010           *
+ *                  See LICENSE.txt to view the GPL 3.0 License        *
+ ***********************************************************************/
 $(document).ready(function(){
   $("#msg").focus();
   $('#help').attr({href:'private/help.php?pass='+$('#pass').attr('value')+'&user='+$('#name').attr('value')});

@@ -1,4 +1,9 @@
 <?php
+/***********************************************************************
+ *                           StickyChat SQL Query's.                   *
+ *                    Made by Jerald Johnson. Copyright 2010           *
+ *                  See LICENSE.txt to view the GPL 3.0 License        *
+ ***********************************************************************/
 include('../inc/sql.php');
 function isAdmin($name,$pass) {
 

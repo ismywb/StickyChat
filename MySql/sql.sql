@@ -1,3 +1,8 @@
+/***********************************************************************
+ *                           StickyChat SQL Query's.                   *
+ *                    Made by Jerald Johnson. Copyright 2010           *
+ *                  See LICENSE.txt to view the GPL 3.0 License        *
+ ***********************************************************************/
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;

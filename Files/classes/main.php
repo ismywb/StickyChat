@@ -1,4 +1,9 @@
 <?php
+/***********************************************************************
+ *                           StickyChat SQL Query's.                   *
+ *                    Made by Jerald Johnson. Copyright 2010           *
+ *                  See LICENSE.txt to view the GPL 3.0 License        *
+ ***********************************************************************/
 require('classes/header.php');
 require('classes/footer.php');
 class Main {
