@@ -1,5 +1,4 @@
 /*TEMPLATE Sticky Page -style.CSS - BY KALYAN CHAKRAVARTHY*/
-@import url(http://thttest.tk/templates/default/emotes.css);
 body { text-align:center; background-color:#B7C584; }
 code { font-size:12px; }
 #page 
@@ -15,7 +14,7 @@ code { font-size:12px; }
   display:block;
   z-index:-12;
   background-color:#e5dfb9;
-  background-image:url(http://thttest.tk/sticky.png);
+  background-image:url(images/sticky.png);
   background-repeat:no-repeat;
   background-position:-10px 0; 
 }
