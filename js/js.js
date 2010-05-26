@@ -19,6 +19,9 @@ $.each(data.items, function(i,item){
 return false;
           });
 }
+error: function(data) {
+alert('error');
+}
         });
 
 
