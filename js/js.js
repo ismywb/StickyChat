@@ -11,6 +11,7 @@ $.ajax({
     dataType: "jsonp",
     url:url,//'http://api.flickr.com/services/feeds/photos_public.gne?tags=cat&tagmode=any&format=json&jsoncallback=?',
     success:function(data) {
+alert(data);
     $('#chat').html("");
 $.each(data.items, function(i,item){
             $("<p>"+item.media.m+"</p>").appendTo("#chat");
