@@ -18,6 +18,7 @@ $.each(data.items, function(i,item){
           });
         });
 }
+
    // setTimeout("getChat()",1000);
     $('#viewall').attr({href:'http://thttest.tk/~schat/private/chat.php?all=true&room='+room});
   $('#help').attr({href:'http://thttest.tk/~schat/private/help.php?pass='+$('#pass').attr('value')+'&user='+$('#name').attr('value')});
