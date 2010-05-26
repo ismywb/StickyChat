@@ -16,8 +16,8 @@ $.each(data.items, function(i,item){
             $("<p>"+item.data.d+"</p>").appendTo("#chat");
             
           });
-        });
 }
+        });
 
 
    // setTimeout("getChat()",1000);
