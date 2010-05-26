@@ -18,7 +18,7 @@ $.each(data.items, function(i,item){
             if (i == 3)
 return false;
           });
-}
+},
 error: function(data) {
 alert('error');
 }
