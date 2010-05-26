@@ -13,7 +13,7 @@ $.ajax({
     success:function(data) {
     $('#chat').html("");
 $.each(data.items, function(i,item){
-            $("<p>"+item.media.d+"</p>").appendTo("#chat");
+            $("<p>"+item.media.m+"</p>").appendTo("#chat");
             if (i == 3)
 return false;
           });
