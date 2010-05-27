@@ -26,7 +26,7 @@ echo <<<end
 <meta name="keywords" content="$words" />
 <link href="$url/style.css" rel="stylesheet" />
 <link rel="shortcut icon" type="image/x-icon" href="$url/images/favicon.ico">
-<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
 <link href="facebox/facebox.css" media="screen" rel="stylesheet" type="text/css"/>
 <script src="facebox/facebox.js" type="text/javascript"></script>
 <script type="text/javascript">

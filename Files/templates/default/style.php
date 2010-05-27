@@ -4,16 +4,10 @@
  *                    Made by Jerald Johnson. Copyright 2010           *
  *                  See LICENSE.txt to view the GPL 3.0 License        *
  ***********************************************************************/
-$dev = false;
-if ($dev) {
-$port = ":84";
-} else
-$port = '';
-header("Content-type: text/css");
-$url = "http://".$_SERVER['SERVER_NAME'].$port."/";
-?>
+$url = "http://".$_SERVER['SERVER_NAME']."/";
+$data = <<<end
 /*TEMPLATE Sticky Page -style.CSS - BY KALYAN CHAKRAVARTHY*/
-@import url(<?=$url;?>templates/default/emotes.css);
+@import url({$url}templates/default/emotes.css);
 body { text-align:center; background-color:#B7C584; }
 code { font-size:12px; }
 #page 
@@ -29,7 +23,7 @@ code { font-size:12px; }
   display:block;
   z-index:-12;
   background-color:#e5dfb9;
-  background-image:url(<?=$url;?>sticky.png);
+  background-image:url({$url}templates/default/images/sticky.png);
   background-repeat:no-repeat;
   background-position:-10px 0; 
 }
@@ -64,5 +58,6 @@ code { font-size:12px; }
 
 .img-left{ float:left; clear:left; }
 .img-right{ float:right; clear:right; }
- 
-
+end;
+header("Content-type: text/css");
+echo $data;
